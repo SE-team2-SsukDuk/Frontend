@@ -1,0 +1,61 @@
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination-arrow {
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination-number {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.pagination-number.active {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.pagination-gap {
+  padding: 0 8px;
+  color: #999;
+}
+
+.finished-polls-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.finished-polls-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.finished-polls-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}

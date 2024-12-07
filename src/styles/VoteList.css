@@ -1,0 +1,56 @@
+/* VoteList 그리드 컨테이너 */
+.vote-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3열 레이아웃 */
+    gap: 0px; /* 그리드 자체 간격 제거 */
+    justify-content: center; /* 그리드 중앙 정렬 */
+    padding: 0px; /* 외부 여백 */
+    background-color: #f9f9f9; /* 배경색 */
+    max-width: 1000px; /* 전체 너비 제한 */
+    margin: 0 auto; /* 중앙 정렬 */
+  }
+  
+  /* 개별 보드 카드 */
+  .vote-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px; /* 카드 너비 */
+    height: 280px; /* 카드 높이 */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* 둥근 모서리 */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin: 5px 0px 5px 0px; /* 상하좌우 간격 음수 적용 */
+  }
+  
+  /* 이미지 스타일 */
+  .vote-image {
+    width: 100%;
+    height: 75%;
+    object-fit: cover; /* 이미지 비율 유지하며 꽉 채우기 */
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  /* 제목 스타일 */
+  .vote-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  /* 작성자 스타일 */
+  .vote-author {
+    font-size: 12px;
+    text-align: right;
+    justify-content: center;
+    margin-right: 10px;
+    color: #666;
+    margin-top: 5px;
+  }
